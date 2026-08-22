@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dimensional_additions:block/purgenta_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dimensional_additions:block/purgenta_wood"
+    },
+    "axis=z": {
+      "model": "dimensional_additions:block/purgenta_wood",
+      "x": 90
+    }
+  }
+}

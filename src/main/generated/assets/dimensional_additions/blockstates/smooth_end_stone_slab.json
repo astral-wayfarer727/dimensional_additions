@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dimensional_additions:block/smooth_end_stone_slab"
+    },
+    "type=double": {
+      "model": "dimensional_additions:block/smooth_end_stone"
+    },
+    "type=top": {
+      "model": "dimensional_additions:block/smooth_end_stone_slab_top"
+    }
+  }
+}

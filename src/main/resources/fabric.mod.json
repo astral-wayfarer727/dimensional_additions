@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "dimensional_additions",
+	"version": "${version}",
+	"name": "Dimensional Additions",
+	"description": "Some fun additions to both the non Overworld Dimensions, including a Vanilla-esque End Update",
+	"authors": [
+		"Astral Wayfarer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dimensional_additions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"astro.dimensional_additions.DimensionalAdditions"
+		],
+		"fabric-datagen": [
+			"astro.dimensional_additions.datagen.DimensionalAdditionsDataGenerator"
+		],
+		"client": [
+			"astro.dimensional_additions.DimensionalAdditionsClient"
+		]
+	},
+	"mixins": [
+		"dimensional_additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

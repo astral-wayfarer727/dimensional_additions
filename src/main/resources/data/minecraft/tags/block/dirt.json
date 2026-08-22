@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "dimensional_additions:astral_turf",
+    "#dimensional_additions:turf"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dimensional_additions:block/endurtica_slab"
+    },
+    "type=double": {
+      "model": "dimensional_additions:block/endurtica_planks"
+    },
+    "type=top": {
+      "model": "dimensional_additions:block/endurtica_slab_top"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "dimensional_additions:nether_iron_ore",
+    "dimensional_additions:end_diamond_ore",
+    "dimensional_additions:smooth_end_stone",
+    "dimensional_additions:smooth_end_stone_stairs",
+    "dimensional_additions:smooth_end_stone_slab",
+    "dimensional_additions:smooth_end_stone_wall",
+    "dimensional_additions:cobbled_end_stone_stairs",
+    "dimensional_additions:cobbled_end_stone_slab",
+    "dimensional_additions:cobbled_end_stone_wall"
+  ]
+}
