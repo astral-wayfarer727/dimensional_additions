@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": "dimensional_additions:nether_iron_ore",
+  "result": {
+    "id": "minecraft:iron_ingot"
+  }
+}

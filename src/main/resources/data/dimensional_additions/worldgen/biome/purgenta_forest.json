@@ -1,0 +1,48 @@
+{
+  "carvers": "dimensional_additions:end_cave",
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [],
+    [
+      "dimensional_additions:end_coal_ore_placed",
+      "dimensional_additions:end_diamond_ore_placed"
+    ],
+    [],
+    [
+      "dimensional_additions:trees_purgenta_forest",
+      "dimensional_additions:purgenta_forest_vegetation_placed",
+      "dimensional_additions:end_glow_lichen"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

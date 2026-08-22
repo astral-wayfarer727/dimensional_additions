@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dimensional_additions:block/purgenta_slab"
+    },
+    "type=double": {
+      "model": "dimensional_additions:block/purgenta_planks"
+    },
+    "type=top": {
+      "model": "dimensional_additions:block/purgenta_slab_top"
+    }
+  }
+}

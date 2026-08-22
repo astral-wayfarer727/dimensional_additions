@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dimensional_additions:block/verdant_shoot_bloom"
+  }
+}

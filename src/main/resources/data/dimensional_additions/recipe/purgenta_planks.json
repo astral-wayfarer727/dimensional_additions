@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#dimensional_additions:purgenta_logs"
+  ],
+  "result": {
+    "count": 4,
+    "id": "dimensional_additions:purgenta_planks"
+  }
+}

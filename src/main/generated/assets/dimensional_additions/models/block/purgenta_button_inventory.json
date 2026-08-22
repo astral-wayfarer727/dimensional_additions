@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "dimensional_additions:block/purgenta_planks"
+  }
+}

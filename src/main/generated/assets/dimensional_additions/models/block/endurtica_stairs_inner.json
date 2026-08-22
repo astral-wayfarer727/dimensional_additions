@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dimensional_additions:block/endurtica_planks",
+    "side": "dimensional_additions:block/endurtica_planks",
+    "top": "dimensional_additions:block/endurtica_planks"
+  }
+}

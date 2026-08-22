@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:the_end",
+  "targets": [
+    "minecraft:end_highlands"
+  ],
+  "replacement": "dimensional_additions:endurtica_forest",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": -2.0,
+      "max_inclusive": -0.3
+    }
+  }
+}

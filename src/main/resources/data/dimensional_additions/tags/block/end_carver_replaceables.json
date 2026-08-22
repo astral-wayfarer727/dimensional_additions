@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#dimensional_additions:turf",
+    "dimensional_additions:astral_turf",
+    "dimensional_additions:smooth_end_stone",
+    "#minecraft:diamond_ores",
+    "#minecraft:coal_ores",
+    "minecraft:calcite",
+    "minecraft:end_stone"
+  ]
+}

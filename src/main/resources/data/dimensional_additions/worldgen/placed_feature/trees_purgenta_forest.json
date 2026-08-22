@@ -1,0 +1,55 @@
+{
+  "feature": "dimensional_additions:trees_purgenta",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 7,
+            "weight": 1
+          },
+          {
+            "data": 2,
+            "weight": 12
+          },
+          {
+            "data": 4,
+            "weight": 24
+          },
+          {
+            "data": 1,
+            "weight": 6
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "tag": "dimensional_additions:turf"
+      }
+    }
+  ]
+}

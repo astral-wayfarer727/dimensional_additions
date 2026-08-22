@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:the_end",
+  "targets": [
+    "minecraft:end_highlands"
+  ],
+  "replacement": "dimensional_additions:purgenta_forest",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.3,
+      "max_inclusive": 2.0
+    }
+  }
+}

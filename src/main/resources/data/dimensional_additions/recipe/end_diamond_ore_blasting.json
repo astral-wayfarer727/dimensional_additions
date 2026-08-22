@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1.0,
+  "cookingtime": 100,
+  "ingredient": "dimensional_additions:end_diamond_ore",
+  "result": {
+    "id": "minecraft:diamond"
+  }
+}

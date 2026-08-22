@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "dimensional_additions:block/endurtica_door_bottom",
+    "top": "dimensional_additions:block/endurtica_door_top"
+  }
+}

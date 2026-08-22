@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dimensional_additions:block/drift_berry_bush_stage0"
+  }
+}
