@@ -21,7 +21,7 @@ public class TallRoseShootBlock extends EndPlantBlock implements Fertilizable {
         super(settings);
     }
 
-    private static final VoxelShape SHAPE = Block.createColumnShape(12.0, 0.0, 12.0);
+    private static final VoxelShape SHAPE = Block.createColumnShape(10.0, 0.0, 10.0);
 
     @Override
     protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
