@@ -8,8 +8,8 @@
 		"Astral Wayfarer"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/dimensional-additions",
+		"sources": "https://github.com/astral-wayfarer727/dimensional_additions"
 	},
 	"license": "MIT",
 	"icon": "assets/dimensional_additions/icon.png",

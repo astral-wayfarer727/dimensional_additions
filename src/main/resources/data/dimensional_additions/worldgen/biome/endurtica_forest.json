@@ -16,13 +16,17 @@
     [],
     [
       "dimensional_additions:end_coal_ore_placed",
-      "dimensional_additions:end_diamond_ore_placed"
+      "dimensional_additions:end_diamond_ore_placed",
+      "dimensional_additions:end_onyx_ore_rare"
     ],
     [],
     [
+      "dimensional_additions:sparse_nitrogen_lake",
       "dimensional_additions:trees_endurtica_forest",
       "dimensional_additions:endurtica_forest_vegetation_placed",
-      "dimensional_additions:end_glow_lichen"
+      "dimensional_additions:end_glow_lichen",
+      "dimensional_additions:patch_sedum",
+      "dimensional_additions:sparse_end_island_decorated"
     ]
   ],
   "has_precipitation": false,

@@ -12,10 +12,13 @@
     [],
     [],
     [],
-    [],
+    [
+      "dimensional_additions:end_onyx_ore_rare"
+    ],
     [],
     [
-      "dimensional_additions:end_glow_lichen"
+      "dimensional_additions:end_glow_lichen",
+      "dimensional_additions:sparse_end_island_decorated"
     ]
   ],
   "has_precipitation": false,

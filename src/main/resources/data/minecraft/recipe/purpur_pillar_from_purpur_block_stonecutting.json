@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "dimensional_additions:smooth_purpur",
+  "result": {
+    "count": 1,
+    "id": "minecraft:purpur_pillar"
+  }
+}

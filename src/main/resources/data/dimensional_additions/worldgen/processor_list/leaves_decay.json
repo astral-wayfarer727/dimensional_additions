@@ -1,0 +1,9 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:block_rot",
+      "integrity": 0.1,
+      "rottable_blocks": "dimensional_additions:purgenta_leaves"
+    }
+  ]
+}

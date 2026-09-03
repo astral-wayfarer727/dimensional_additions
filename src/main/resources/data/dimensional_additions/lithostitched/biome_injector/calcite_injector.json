@@ -1,0 +1,16 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:the_end",
+  "targets": [
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:end_barrens"
+  ],
+  "replacement": "dimensional_additions:calcite_crags",
+  "parameters": {
+    "humidity": {
+      "min_inclusive": -1.0,
+      "max_inclusive": -0.4
+    }
+  }
+}

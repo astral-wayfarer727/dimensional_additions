@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:the_end",
+  "targets": [
+    "minecraft:small_end_islands"
+  ],
+  "replacement": "dimensional_additions:nitrogen_islands",
+  "parameters": {
+    "humidity": {
+      "min_inclusive": 0.5,
+      "max_inclusive": 1.0
+    }
+  }
+}

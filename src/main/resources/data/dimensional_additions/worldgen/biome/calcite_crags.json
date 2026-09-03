@@ -1,0 +1,57 @@
+{
+  "carvers": [
+    "dimensional_additions:end_cave",
+    "dimensional_additions:calcite_crack"
+  ],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_gateway_return",
+      "dimensional_additions:calcite_jitter",
+      "dimensional_additions:calcite_columns_placed",
+      "dimensional_additions:small_calcite_columns_placed",
+      "dimensional_additions:obsidian_columns_placed",
+      "dimensional_additions:volatile_obsidian"
+    ],
+    [],
+    [],
+    [
+      "dimensional_additions:end_coal_ore_placed",
+      "dimensional_additions:end_diamond_ore_placed",
+      "dimensional_additions:end_onyx_ore_rare",
+      "dimensional_additions:obsidian_stalactites_placed"
+    ],
+    [],
+    [
+      "dimensional_additions:end_glow_lichen",
+      "dimensional_additions:sparse_end_island_decorated"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

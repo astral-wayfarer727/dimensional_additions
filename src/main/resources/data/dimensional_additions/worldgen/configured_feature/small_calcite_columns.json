@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "direction": "up",
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:biased_to_bottom",
+          "max_inclusive": 7,
+          "min_inclusive": 2
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "dimensional_additions:calcite_pillar"
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

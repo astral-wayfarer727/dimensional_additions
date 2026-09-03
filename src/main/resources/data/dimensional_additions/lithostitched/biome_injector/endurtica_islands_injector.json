@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:the_end",
+  "targets": [
+    "minecraft:small_end_islands"
+  ],
+  "replacement": "dimensional_additions:endurtica_islands",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": -1.0,
+      "max_inclusive": -0.3
+    }
+  }
+}

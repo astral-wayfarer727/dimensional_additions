@@ -1,6 +1,18 @@
 {
   "values": [
     "dimensional_additions:cobbled_end_stone_slab",
-    "dimensional_additions:smooth_end_stone_slab"
+    "dimensional_additions:smooth_end_stone_slab",
+    "dimensional_additions:cerulean_shale_slab",
+    "dimensional_additions:navy_shale_slab",
+    "dimensional_additions:cerulean_shale_brick_slab",
+    "dimensional_additions:navy_shale_brick_slab",
+    "dimensional_additions:cerulean_shale_tile_slab",
+    "dimensional_additions:navy_shale_tile_slab",
+    "dimensional_additions:polished_cerulean_shale_slab",
+    "dimensional_additions:polished_navy_shale_slab",
+    "dimensional_additions:onyx_slab",
+    "dimensional_additions:smooth_onyx_slab",
+    "dimensional_additions:onyx_brick_slab",
+    "dimensional_additions:smooth_purpur_slab"
   ]
 }

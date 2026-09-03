@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.2,
+  "cookingtime": 100,
+  "ingredient": "dimensional_additions:end_onyx_ore",
+  "result": {
+    "id": "dimensional_additions:onyx"
+  }
+}

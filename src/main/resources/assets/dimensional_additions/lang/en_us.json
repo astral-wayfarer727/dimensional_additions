@@ -42,9 +42,43 @@
   "block.dimensional_additions.smooth_end_stone_slab": "End Stone Slab",
   "block.dimensional_additions.smooth_end_stone_wall": "End Stone Wall",
 
-  "block.dimensional_additions.cobbled_end_stone_stairs": "Cobbled Stone Stairs",
-  "block.dimensional_additions.cobbled_end_stone_slab": "Cobbled Stone Slab",
-  "block.dimensional_additions.cobbled_end_stone_wall": "Cobbled Stone Wall",
+  "block.dimensional_additions.cobbled_end_stone_stairs": "Cobbled End Stone Stairs",
+  "block.dimensional_additions.cobbled_end_stone_slab": "Cobbled End Stone Slab",
+  "block.dimensional_additions.cobbled_end_stone_wall": "Cobbled End Stone Wall",
+
+  "block.dimensional_additions.cerulean_shale": "Cerulean Shale",
+  "block.dimensional_additions.cerulean_shale_stairs": "Cerulean Shale Stairs",
+  "block.dimensional_additions.cerulean_shale_slab": "Cerulean Shale Slab",
+  "block.dimensional_additions.cerulean_shale_wall": "Cerulean Shale Wall",
+  "block.dimensional_additions.cerulean_shale_bricks": "Cerulean Shale Bricks",
+  "block.dimensional_additions.cerulean_shale_brick_stairs": "Cerulean Shale Brick Stairs",
+  "block.dimensional_additions.cerulean_shale_brick_slab": "Cerulean Shale Brick Slab",
+  "block.dimensional_additions.cerulean_shale_brick_wall": "Cerulean Shale Brick Wall",
+  "block.dimensional_additions.cerulean_shale_tiles": "Cerulean Shale Tiles",
+  "block.dimensional_additions.cerulean_shale_tile_stairs": "Cerulean Shale Tile Stairs",
+  "block.dimensional_additions.cerulean_shale_tile_slab": "Cerulean Shale Tile Slab",
+  "block.dimensional_additions.cerulean_shale_tile_wall": "Cerulean Shale Tile Wall",
+  "block.dimensional_additions.polished_cerulean_shale": "Polished Cerulean Shale",
+  "block.dimensional_additions.polished_cerulean_shale_stairs": "Polished Cerulean Shale Stairs",
+  "block.dimensional_additions.polished_cerulean_shale_slab": "Polished Cerulean Shale Slab",
+  "block.dimensional_additions.polished_cerulean_shale_wall": "Polished Cerulean Shale Wall",
+
+  "block.dimensional_additions.navy_shale": "Navy Shale",
+  "block.dimensional_additions.navy_shale_stairs": "Navy Shale Stairs",
+  "block.dimensional_additions.navy_shale_slab": "Navy Shale Slab",
+  "block.dimensional_additions.navy_shale_wall": "Navy Shale Wall",
+  "block.dimensional_additions.navy_shale_bricks": "Navy Shale Bricks",
+  "block.dimensional_additions.navy_shale_brick_stairs": "Navy Shale Brick Stairs",
+  "block.dimensional_additions.navy_shale_brick_slab": "Navy Shale Brick Slab",
+  "block.dimensional_additions.navy_shale_brick_wall": "Navy Shale Brick Wall",
+  "block.dimensional_additions.navy_shale_tiles": "Navy Shale Tiles",
+  "block.dimensional_additions.navy_shale_tile_stairs": "Navy Shale Tile Stairs",
+  "block.dimensional_additions.navy_shale_tile_slab": "Navy Shale Tile Slab",
+  "block.dimensional_additions.navy_shale_tile_wall": "Navy Shale Tile Wall",
+  "block.dimensional_additions.polished_navy_shale": "Polished Navy Shale",
+  "block.dimensional_additions.polished_navy_shale_stairs": "Polished Navy Shale Stairs",
+  "block.dimensional_additions.polished_navy_shale_slab": "Polished Navy Shale Slab",
+  "block.dimensional_additions.polished_navy_shale_wall": "Polished Navy Shale Wall",
 
   "block.dimensional_additions.astral_turf": "Astral Turf",
   "block.dimensional_additions.verdant_turf": "Verdant Turf",
@@ -58,9 +92,40 @@
   "block.dimensional_additions.tall_verdant_shoot": "Tall Verdant Shoot",
   "block.dimensional_additions.verdant_shoot_bloom": "Blooming Verdant Shoot",
 
+  "block.dimensional_additions.sedum": "Sedum",
+  "block.dimensional_additions.pygmy_chorus": "Pygmy Chorus",
+
+  "block.dimensional_additions.volatile_obsidian": "Volatile Obsidian",
+
+  "block.dimensional_additions.onyx_block": "Onyx Block",
+  "block.dimensional_additions.onyx_stairs": "Onyx Stairs",
+  "block.dimensional_additions.onyx_slab": "Onyx Slab",
+
+  "block.dimensional_additions.smooth_onyx_block": "Smooth Onyx Block",
+  "block.dimensional_additions.smooth_onyx_stairs": "Smooth Onyx Stairs",
+  "block.dimensional_additions.smooth_onyx_slab": "Smooth Onyx Slab",
+
+  "block.dimensional_additions.onyx_bricks": "Onyx Bricks",
+  "block.dimensional_additions.onyx_brick_stairs": "Onyx Brick Stairs",
+  "block.dimensional_additions.onyx_brick_slab": "Onyx Brick Slab",
+  "block.dimensional_additions.onyx_brick_wall": "Onyx Brick Wall",
+
+  "block.dimensional_additions.onyx_pillar": "Onyx Pillar",
+  "block.dimensional_additions.chiseled_onyx_block": "Chiseled Onyx Block",
+
+  "block.dimensional_additions.smooth_purpur": "Purpur",
+  "block.dimensional_additions.smooth_purpur_stairs": "Purpur Stairs",
+  "block.dimensional_additions.smooth_purpur_slab": "Purpur Slab",
+  "block.dimensional_additions.smooth_purpur_wall": "Purpur Wall",
+  "block.dimensional_additions.purpur_brick_wall": "Purpur Brick Wall",
+
+  "block.dimensional_additions.calcite_pillar": "Calcite Pillar",
+  "block.dimensional_additions.polished_calcite_pillar": "Polished Calcite Pillar",
+
   "block.dimensional_additions.drift_berry_bush": "Drift Berry Bush",
   "item.dimensional_additions.drift_berry": "Drift Berry",
-  "effect.dimensional_additions.low_gravity": "Low Gravity",
+  "effect.dimensional_additions.low_gravity_1": "Low Gravity",
+  "effect.dimensional_additions.low_gravity_2": "Low Gravity II",
   "effect.dimensional_additions.high_gravity": "High Gravity",
   "item.minecraft.potion.effect.low_gravity": "Potion of Low Gravity",
   "item.minecraft.splash_potion.effect.low_gravity": "Splash Potion of Low Gravity",
@@ -71,6 +136,21 @@
   "item.minecraft.tipped_arrow.effect.low_gravity": "Arrow of Low Gravity",
   "item.minecraft.tipped_arrow.effect.high_gravity": "Arrow of High Gravity",
 
+  "item.minecraft.potion.effect.resistance": "Potion of Resistance",
+  "item.minecraft.splash_potion.effect.resistance": "Splash Potion of Resistance",
+  "item.minecraft.lingering_potion.effect.resistance": "Lingering Potion of Resistance",
+  "item.minecraft.tipped_arrow.effect.resistance": "Arrow of Resistance",
+
+  "item.dimensional_additions.nitrogen_bucket": "Nitrogen Bucket",
+
+  "item.dimensional_additions.onyx": "Onyx",
+
   "biome.dimensional_additions.endurtica_forest": "Endurtica Forest",
-  "biome.dimensional_additions.purgenta_forest": "Purgenta Forest"
+  "biome.dimensional_additions.purgenta_forest": "Purgenta Forest",
+  "biome.dimensional_additions.calcite_crags": "Calcite Crags",
+  "biome.dimensional_additions.nitrogen_lakes": "Nitrogen Lakes",
+  "biome.dimensional_additions.endurtica_islands": "Endurtica Islands",
+  "biome.dimensional_additions.purgenta_islands": "Purgenta Islands",
+  "biome.dimensional_additions.calcite_islands": "Calcite Islands",
+  "biome.dimensional_additions.nitrogen_islands": "Nitrogen Islands"
 }

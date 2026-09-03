@@ -1,0 +1,19 @@
+{
+  "feature": "dimensional_additions:calcite_jitter",
+  "placement": [
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 2
+    }
+  ]
+}

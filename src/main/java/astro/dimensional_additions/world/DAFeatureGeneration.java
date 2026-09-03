@@ -10,7 +10,7 @@ public class DAFeatureGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.BASALT_DELTAS), GenerationStep.Feature.UNDERGROUND_ORES,
                 DAPlacedFeatures.NETHER_IRON_ORE_PLACED_KEY);
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.END_BARRENS, BiomeKeys.END_MIDLANDS, BiomeKeys.END_HIGHLANDS), GenerationStep.Feature.UNDERGROUND_ORES,
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.END_MIDLANDS, BiomeKeys.END_HIGHLANDS), GenerationStep.Feature.UNDERGROUND_ORES,
                 DAPlacedFeatures.END_COAL_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES,
                 DAPlacedFeatures.END_DIAMOND_ORE_PLACED_KEY);

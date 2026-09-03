@@ -1,0 +1,17 @@
+{
+  "processors": [
+    {
+      "integrity": 0.95,
+      "processor_type": "minecraft:block_rot"
+    },
+    {
+      "processor_type": "minecraft:protected_blocks",
+      "value": "#minecraft:features_cannot_replace"
+    },
+    {
+      "processor_type": "minecraft:gravity",
+      "heightmap": "WORLD_SURFACE_WG",
+      "offset": -2
+    }
+  ]
+}

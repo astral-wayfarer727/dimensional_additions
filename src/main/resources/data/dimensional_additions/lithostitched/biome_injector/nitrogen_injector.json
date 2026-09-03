@@ -1,0 +1,16 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:the_end",
+  "targets": [
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:end_barrens"
+  ],
+  "replacement": "dimensional_additions:nitrogen_lakes",
+  "parameters": {
+    "humidity": {
+      "min_inclusive": 0.5,
+      "max_inclusive": 1.0
+    }
+  }
+}

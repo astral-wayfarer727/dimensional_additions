@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dimensional_additions:block/chiseled_onyx_block_top",
+    "side": "dimensional_additions:block/chiseled_onyx_block"
+  }
+}

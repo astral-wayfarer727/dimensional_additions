@@ -1,3 +1,7 @@
 {
-  "block.minecraft.end_stone": "Cobbled End Stone"
+  "block.minecraft.end_stone": "Cobbled End Stone",
+  "block.minecraft.purpur_block": "Purpur Bricks",
+  "block.minecraft.purpur_stairs": "Purpur Brick Stairs",
+  "block.minecraft.purpur_slab": "Purpur Brick Slab",
+  "item.minecraft.popped_chorus_fruit": "Purpur Pebble"
 }

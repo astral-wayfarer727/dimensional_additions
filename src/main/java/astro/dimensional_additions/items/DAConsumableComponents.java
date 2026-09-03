@@ -13,7 +13,7 @@ public class DAConsumableComponents {
     public static final ConsumableComponent DRIFT_BERRY = food()
             .consumeEffect(
                     new ApplyEffectsConsumeEffect(
-                            List.of(new StatusEffectInstance(DAEffects.LOW_GRAVITY, 600, 0))
+                            List.of(new StatusEffectInstance(DAEffects.LOW_GRAVITY_1, 600, 0))
                     )
             )
             .build();

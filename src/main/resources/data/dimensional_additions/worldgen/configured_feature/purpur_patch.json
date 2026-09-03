@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:block_match",
+                "block": "minecraft:end_stone"
+              },
+              "state": {
+                "Name": "dimensional_additions:smooth_purpur"
+              }
+            }
+          ],
+          "size": 48,
+          "discard_chance_on_air_exposure": 0.1
+        }
+      },
+      "placement": []
+    },
+    "tries": 16,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

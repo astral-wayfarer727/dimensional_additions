@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "dimensional_additions:onyx_block",
+  "result": {
+    "count": 1,
+    "id": "dimensional_additions:onyx_pillar"
+  }
+}

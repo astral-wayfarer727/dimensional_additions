@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "dimensional_additions:onyx_block",
+  "result": {
+    "id": "dimensional_additions:smooth_onyx_block"
+  }
+}

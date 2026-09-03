@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "dimensional_additions:calcite_pillar"
+  },
+  "result": {
+    "id": "dimensional_additions:polished_calcite_pillar",
+    "count": 4
+  }
+}

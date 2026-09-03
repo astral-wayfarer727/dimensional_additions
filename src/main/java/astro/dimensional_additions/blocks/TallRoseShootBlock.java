@@ -1,10 +1,12 @@
 package astro.dimensional_additions.blocks;
 
+import astro.dimensional_additions.tags.DATags;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCollisionHandler;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
@@ -14,7 +16,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 
-public class TallRoseShootBlock extends PlantBlock implements Fertilizable {
+public class TallRoseShootBlock extends EndPlantBlock implements Fertilizable {
     protected TallRoseShootBlock(Settings settings) {
         super(settings);
     }
@@ -24,11 +26,6 @@ public class TallRoseShootBlock extends PlantBlock implements Fertilizable {
     @Override
     protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;
-    }
-
-    @Override
-    protected MapCodec<? extends PlantBlock> getCodec() {
-        return null;
     }
 
     @Override
@@ -50,7 +47,7 @@ public class TallRoseShootBlock extends PlantBlock implements Fertilizable {
     @Override
     protected void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity, EntityCollisionHandler handler, boolean bl) {
         if (entity instanceof LivingEntity) {
-            entity.slowMovement(state, new Vec3d(0.6F, 0.5, 0.6F));
+            entity.slowMovement(state, new Vec3d(0.6F, 0.5F, 0.6F));
         }
     }
 }

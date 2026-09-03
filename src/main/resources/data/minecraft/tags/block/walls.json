@@ -1,6 +1,17 @@
 {
   "values": [
     "dimensional_additions:cobbled_end_stone_wall",
-    "dimensional_additions:smooth_end_stone_wall"
+    "dimensional_additions:smooth_end_stone_wall",
+    "dimensional_additions:cerulean_shale_wall",
+    "dimensional_additions:navy_shale_wall",
+    "dimensional_additions:cerulean_shale_brick_wall",
+    "dimensional_additions:navy_shale_brick_wall",
+    "dimensional_additions:cerulean_shale_tile_wall",
+    "dimensional_additions:navy_shale_tile_wall",
+    "dimensional_additions:polished_cerulean_shale_wall",
+    "dimensional_additions:polished_navy_shale_wall",
+    "dimensional_additions:onyx_brick_wall",
+    "dimensional_additions:smooth_purpur_wall",
+    "dimensional_additions:purpur_brick_wall"
   ]
 }

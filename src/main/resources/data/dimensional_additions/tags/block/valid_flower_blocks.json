@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#dimensional_additions:turf",
+    "#minecraft:dirt",
+    "dimensional_additions:smooth_end_stone",
+    "minecraft:end_stone"
+  ]
+}

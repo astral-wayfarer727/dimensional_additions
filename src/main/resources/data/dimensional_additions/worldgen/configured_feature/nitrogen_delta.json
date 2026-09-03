@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "dimensional_additions:nitrogen",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "rim": {
+      "Name": "dimensional_additions:navy_shale"
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 2,
+      "min_inclusive": 1
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 12,
+      "min_inclusive": 8
+    }
+  }
+}

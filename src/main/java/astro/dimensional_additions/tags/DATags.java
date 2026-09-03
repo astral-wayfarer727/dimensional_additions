@@ -2,6 +2,7 @@ package astro.dimensional_additions.tags;
 
 import astro.dimensional_additions.DimensionalAdditions;
 import net.minecraft.block.Block;
+import net.minecraft.fluid.*;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
@@ -11,6 +12,7 @@ public class DATags {
     public static class Blocks {
         public static final TagKey<Block> TURF = createTag("turf");
         public static final TagKey<Block> VALID_DRIFT_BERRY_BLOCKS = createTag("valid_drift_berry_blocks");
+        public static final TagKey<Block> VALID_FLOWER_BLOCKS = createTag("valid_flower_blocks");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(DimensionalAdditions.MOD_ID, name));
@@ -22,6 +24,14 @@ public class DATags {
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(DimensionalAdditions.MOD_ID, name));
+        }
+    }
+
+    public final class Fluids {
+        public static final TagKey<Fluid> NITROGEN = createTag("nitrogen");
+
+        private static TagKey<Fluid> createTag(String name) {
+            return TagKey.of(RegistryKeys.FLUID, Identifier.of(DimensionalAdditions.MOD_ID, name));
         }
     }
 }

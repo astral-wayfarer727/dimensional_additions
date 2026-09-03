@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "cookingtime": 200,
+  "ingredient": "dimensional_additions:navy_shale",
+  "result": {
+    "id": "dimensional_additions:polished_navy_shale"
+  }
+}

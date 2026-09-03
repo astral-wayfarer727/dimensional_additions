@@ -1,0 +1,21 @@
+{
+  "feature": "dimensional_additions:calcite_columns",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 92
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

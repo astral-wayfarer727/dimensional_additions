@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "dimensional_additions:end_watchtower_variants",
+  "size": 1,
+  "max_distance_from_center": 80,
+  "biomes": [
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "dimensional_additions:purgenta_forest",
+    "dimensional_additions:endurtica_forest"
+  ],
+  "step": "surface_structures",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -5
+    },
+    "max_inclusive": {
+      "absolute": -15
+    }
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "use_expansion_hack": false,
+  "dimension_padding": {
+    "bottom": 48,
+    "top": 128
+  },
+  "spawn_overrides": {}
+}

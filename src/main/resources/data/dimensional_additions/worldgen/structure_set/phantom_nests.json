@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dimensional_additions:phantom_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 983568927,
+    "separation": 4,
+    "spacing": 8,
+    "type": "minecraft:random_spread"
+  }
+}

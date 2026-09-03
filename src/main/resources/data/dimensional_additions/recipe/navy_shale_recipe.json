@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": "dimensional_additions:cerulean_shale",
+    "B": "minecraft:black_dye"
+  },
+  "result": {
+    "id": "dimensional_additions:navy_shale",
+    "count": 8
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "dimensional_additions:polished_cerulean_shale"
+  },
+  "result": {
+    "id": "dimensional_additions:polished_cerulean_shale_stairs",
+    "count": 4
+  }
+}

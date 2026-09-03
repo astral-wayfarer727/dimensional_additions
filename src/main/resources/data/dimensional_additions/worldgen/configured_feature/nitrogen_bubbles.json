@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:random_boolean_selector",
+  "config": {
+    "feature_false": {
+      "feature": "dimensional_additions:cerulean_bubble",
+      "placement": []
+    },
+    "feature_true": {
+      "feature": "dimensional_additions:navy_bubble",
+      "placement": []
+    }
+  }
+}

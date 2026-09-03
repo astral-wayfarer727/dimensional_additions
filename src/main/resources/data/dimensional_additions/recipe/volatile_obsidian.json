@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O#O",
+    "#E#",
+    "O#O"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "#": "minecraft:crying_obsidian",
+    "E": "minecraft:end_crystal"
+  },
+  "result": {
+    "id": "dimensional_additions:volatile_obsidian"
+  }
+}

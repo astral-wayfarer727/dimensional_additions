@@ -7,15 +7,25 @@
   "features": [
     [],
     [],
+    [
+      "dimensional_additions:purpur_patch"
+    ],
     [],
-    [],
-    [],
-    [],
-    [],
+    [
+      "minecraft:end_gateway_return"
+    ],
     [],
     [],
     [
-      "dimensional_additions:end_glow_lichen"
+      "dimensional_additions:end_onyx_ore_rare"
+    ],
+    [],
+    [
+      "dimensional_additions:sparse_nitrogen_lake",
+      "dimensional_additions:sparse_chorus_plant",
+      "dimensional_additions:end_glow_lichen",
+      "dimensional_additions:patch_pygmy_chorus",
+      "dimensional_additions:sparse_end_island_decorated"
     ]
   ],
   "has_precipitation": false,

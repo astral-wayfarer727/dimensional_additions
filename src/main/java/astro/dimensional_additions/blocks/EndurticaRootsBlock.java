@@ -5,6 +5,7 @@ import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCollisionHandler;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.world.ServerWorld;
@@ -64,7 +65,7 @@ public class EndurticaRootsBlock extends PlantBlock implements Fertilizable {
     @Override
     protected boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockState blockState2 = world.getBlockState(pos.down());
-        return (!blockState2.isIn(BlockTags.AIR) && !blockState2.isOf(ModBlocks.ENDURTICA_ROOTS));
+        return (!blockState2.isIn(BlockTags.AIR) && !blockState2.isOf(this));
     }
 }
 

@@ -119,6 +119,6 @@ public class DriftBerryBushBlock extends PlantBlock implements Fertilizable {
     @Override
     protected boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockState blockState2 = world.getBlockState(pos.down());
-        return (blockState2.isIn(DATags.Blocks.VALID_DRIFT_BERRY_BLOCKS) && !blockState2.isIn(BlockTags.AIR) && !blockState2.isOf(ModBlocks.DRIFT_BERRY_BUSH));
+        return (blockState2.isIn(DATags.Blocks.VALID_DRIFT_BERRY_BLOCKS) && !blockState2.isIn(BlockTags.AIR) && !blockState2.isOf(this));
     }
 }

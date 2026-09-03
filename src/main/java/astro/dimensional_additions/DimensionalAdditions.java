@@ -1,18 +1,28 @@
 package astro.dimensional_additions;
 
 import astro.dimensional_additions.blocks.ModBlocks;
+import astro.dimensional_additions.blocks.ModFluids;
 import astro.dimensional_additions.items.ModItems;
+import astro.dimensional_additions.particles.DAParticles;
+import astro.dimensional_additions.particles.EndurticaRoseParticle;
+import astro.dimensional_additions.particles.FrostCloudParticle;
+import astro.dimensional_additions.particles.PurgentaLeavesParticle;
 import astro.dimensional_additions.potion.DAPotions;
 import astro.dimensional_additions.world.DAFeatureGeneration;
 import astro.dimensional_additions.world.gen.DAWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
+import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
+import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +34,9 @@ public class DimensionalAdditions implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerBlocks();
 		ModItems.registerItems();
+		ModFluids.registerFluids();
 		DAPotions.registerPotions();
+		DAParticles.registerParticles();
 		DAFeatureGeneration.generateOres();
 		DAWorldGeneration.generateDAWorldGen();
 
@@ -70,6 +82,17 @@ public class DimensionalAdditions implements ModInitializer {
 			builder.registerPotionRecipe(DAPotions.LOW_GRAVITY, Items.FERMENTED_SPIDER_EYE, DAPotions.HIGH_GRAVITY);
 			builder.registerPotionRecipe(DAPotions.LONG_LOW_GRAVITY, Items.FERMENTED_SPIDER_EYE, DAPotions.LONG_HIGH_GRAVITY);
 			builder.registerPotionRecipe(DAPotions.STRONG_LOW_GRAVITY, Items.FERMENTED_SPIDER_EYE, DAPotions.STRONG_HIGH_GRAVITY);
+
+			builder.registerPotionRecipe(Potions.AWKWARD, Item.fromBlock(ModBlocks.SEDUM), DAPotions.RESISTANCE);
+			builder.registerPotionRecipe(DAPotions.RESISTANCE, Items.REDSTONE, DAPotions.LONG_RESISTANCE);
+			builder.registerPotionRecipe(DAPotions.RESISTANCE, Items.GLOWSTONE_DUST, DAPotions.STRONG_RESISTANCE);
+
+			builder.registerPotionRecipe(DAPotions.RESISTANCE, Items.FERMENTED_SPIDER_EYE, Potions.WEAKNESS);
+			builder.registerPotionRecipe(DAPotions.LONG_RESISTANCE, Items.FERMENTED_SPIDER_EYE, Potions.LONG_WEAKNESS);
 		});
+
+		ParticleFactoryRegistry.getInstance().register(DAParticles.FROST_CLOUD, FrostCloudParticle.Factory::new);
+		ParticleFactoryRegistry.getInstance().register(DAParticles.ENDURTICA_ROSE, EndurticaRoseParticle.Factory::new);
+		ParticleFactoryRegistry.getInstance().register(DAParticles.PURGENTA_LEAVES, PurgentaLeavesParticle.Factory::new);
 	}
 }

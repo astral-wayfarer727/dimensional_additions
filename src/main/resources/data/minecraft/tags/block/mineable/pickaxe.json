@@ -2,13 +2,26 @@
   "replace": false,
   "values": [
     "dimensional_additions:nether_iron_ore",
+    "dimensional_additions:end_coal_ore",
     "dimensional_additions:end_diamond_ore",
+    "dimensional_additions:end_onyx_ore",
     "dimensional_additions:smooth_end_stone",
-    "dimensional_additions:smooth_end_stone_stairs",
-    "dimensional_additions:smooth_end_stone_slab",
-    "dimensional_additions:smooth_end_stone_wall",
-    "dimensional_additions:cobbled_end_stone_stairs",
-    "dimensional_additions:cobbled_end_stone_slab",
-    "dimensional_additions:cobbled_end_stone_wall"
+    "dimensional_additions:cerulean_shale",
+    "dimensional_additions:cerulean_shale_bricks",
+    "dimensional_additions:cerulean_shale_tiles",
+    "dimensional_additions:polished_cerulean_shale",
+    "dimensional_additions:navy_shale",
+    "dimensional_additions:navy_shale_bricks",
+    "dimensional_additions:navy_shale_tiles",
+    "dimensional_additions:polished_navy_shale",
+    "dimensional_additions:onyx_block",
+    "dimensional_additions:smooth_onyx_block",
+    "dimensional_additions:onyx_bricks",
+    "dimensional_additions:onyx_pillar",
+    "dimensional_additions:chiseled_onyx_block",
+    "dimensional_additions:smooth_purpur",
+    "dimensional_additions:calcite_pillar",
+    "dimensional_additions:polished_calcite_pillar",
+    "dimensional_additions:volatile_obsidian"
   ]
 }

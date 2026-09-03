@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dimensional_additions:end_watchtower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 238576284,
+    "separation": 11,
+    "spacing": 20,
+    "type": "minecraft:random_spread"
+  }
+}

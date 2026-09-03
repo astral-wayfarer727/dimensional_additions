@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": "dimensional_additions:navy_shale_bricks"
+  },
+  "result": {
+    "id": "dimensional_additions:navy_shale_brick_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "dimensional_additions:column_placer",
+    "fossil_structures": [
+      "dimensional_additions:calcite_column/calcite_column_a",
+      "dimensional_additions:calcite_column/calcite_column_b",
+      "dimensional_additions:calcite_column/calcite_column_c",
+      "dimensional_additions:calcite_column/calcite_column_d"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "dimensional_additions:column_overlay",
+    "overlay_structures": [
+      "dimensional_additions:calcite_column/calcite_column_overlay_a",
+      "dimensional_additions:calcite_column/calcite_column_overlay_b",
+      "dimensional_additions:calcite_column/calcite_column_overlay_c",
+      "dimensional_additions:calcite_column/calcite_column_overlay_d"
+    ]
+  }
+}

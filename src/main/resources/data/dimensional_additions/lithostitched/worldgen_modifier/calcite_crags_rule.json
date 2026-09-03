@@ -1,0 +1,94 @@
+{
+  "type": "lithostitched:add_surface_rule",
+  "levels": [
+    "minecraft:the_end"
+  ],
+  "priority": -100,
+  "surface_rule": {
+    "type": "minecraft:condition",
+    "if_true": {
+      "type": "minecraft:above_preliminary_surface"
+    },
+    "then_run": {
+      "type": "minecraft:sequence",
+      "sequence": [
+        {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:biome",
+            "biome_is": [
+              "dimensional_additions:calcite_crags",
+              "dimensional_additions:calcite_islands"
+            ]
+          },
+          "then_run": {
+            "type": "minecraft:sequence",
+            "sequence": [
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:stone_depth",
+                  "add_surface_depth": false,
+                  "offset": 1,
+                  "secondary_depth_range": 0,
+                  "surface_type": "floor"
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "max_threshold": 0.04,
+                        "min_threshold": -0.04,
+                        "noise": "dimensional_additions:obsidian_kintsugi_1"
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:obsidian"
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "max_threshold": 0.1,
+                        "min_threshold": -0.1,
+                        "noise": "dimensional_additions:obsidian_kintsugi_2"
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:obsidian"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:stone_depth",
+                  "add_surface_depth": false,
+                  "offset": 3,
+                  "secondary_depth_range": 0,
+                  "surface_type": "floor"
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:calcite"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

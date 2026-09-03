@@ -3,9 +3,15 @@
     "#dimensional_additions:turf",
     "dimensional_additions:astral_turf",
     "dimensional_additions:smooth_end_stone",
+    "dimensional_additions:cerulean_shale",
+    "dimensional_additions:navy_shale",
+    "dimensional_additions:end_onyx_ore",
     "#minecraft:diamond_ores",
     "#minecraft:coal_ores",
     "minecraft:calcite",
-    "minecraft:end_stone"
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:end_stone",
+    "minecraft:water"
   ]
 }

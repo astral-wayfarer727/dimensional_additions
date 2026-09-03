@@ -17,7 +17,8 @@
           "if_true": {
             "type": "minecraft:biome",
             "biome_is": [
-              "dimensional_additions:endurtica_forest"
+              "dimensional_additions:endurtica_forest",
+              "dimensional_additions:endurtica_islands"
             ]
           },
           "then_run": {

@@ -1,7 +1,9 @@
 package astro.dimensional_additions.blocks;
 
+import astro.dimensional_additions.tags.DATags;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
@@ -10,7 +12,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 
-public class VerdantShootBlock extends PlantBlock implements Fertilizable {
+public class VerdantShootBlock extends EndPlantBlock implements Fertilizable {
     protected VerdantShootBlock(Settings settings) {
         super(settings);
     }
